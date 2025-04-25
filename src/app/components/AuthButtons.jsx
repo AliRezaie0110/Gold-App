@@ -1,19 +1,28 @@
 // components/AuthButtons.js
-import { Button } from '@mui/material'
+import { MdOutlineDownloading } from "react-icons/md";
+import Link from 'next/link';
 
 const AuthButtons = () => {
     return (
-        <div className="flex gap-4">
-            {/* <a href="https://app.technogold.gold/">
-                <Button variant="outlined" size="large">
-                    ورود یا ثبت‌نام
-                </Button>
-            </a>
-            <Button variant="contained" color="primary" size="large">
-                دانلود اپلیکیشن
-            </Button> */}
-        </div>
-    )
-}
+        <div className="flex items-center gap-4 p-4">
 
-export default AuthButtons
+            <Link
+                href="/ops"
+                className="hidden md:flex w-32 h-12 items-center justify-center bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors duration-200"
+            >
+                ورود | ثبت‌نام
+            </Link>
+            <p className="text-black">Par-Gold</p>
+            <Link
+                href="/ops"
+                className="w-40 h-12 flex items-center justify-center gap-2 bg-red-500 text-white rounded-lg hover:bg-red-600 transition-colors duration-200"
+            >
+                <MdOutlineDownloading className="text-xl" />
+                دانلود اپلیکیشن
+            </Link>
+
+        </div>
+    );
+};
+
+export default AuthButtons;

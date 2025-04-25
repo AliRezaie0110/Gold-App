@@ -12,7 +12,7 @@ const HeroTextContent = () => {
           </span>{' '}
           ذخیره و نگهداری می‌شوند.
         </p>
-        <a className="w-full" href="https://app.technogold.gold/">
+        <a className="w-full" href="/">
           <button className="w-full sm:!w-[257px] flex items-center justify-center gap-2 bg-primary text-white bg-orange-500 py-3 px-6 rounded-lg">
             <span>&nbsp;سرمایه گذاری در طلا</span>
           </button>

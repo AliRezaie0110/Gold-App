@@ -19,8 +19,8 @@ const HeroSellForm = () => {
                     <input type="text" disabled className="w-full text-black border border-gray-500 rounded px-4 py-2 bg-gray-100" placeholder="— تومان" />
                 </div>
             </div>
-            <a href="https://app.technogold.gold/">
-                <button className="w-full bg-orange-300 text-white py-3 px-6 rounded-lg flex items-center justify-center gap-2">
+            <a href="/">
+                <button className="w-full bg-[#eabc26] text-white py-3 px-6 rounded-lg flex items-center justify-center gap-2">
                     فروش
                 </button>
             </a>
